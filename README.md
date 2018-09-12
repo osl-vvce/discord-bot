@@ -1,2 +1,2 @@
 # discord-bot
-A bot bot for OSL's discord server.
+A bot which replies when typed hi.
