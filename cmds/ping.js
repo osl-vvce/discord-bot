@@ -11,5 +11,5 @@ module.exports.run = async (client, message, args) => {
 
 module.exports.help = {
   name: "ping",
-  descr: "Shows the current ping of the bot server."
+  descr: "Shows the current ping of the bot server"
 };
