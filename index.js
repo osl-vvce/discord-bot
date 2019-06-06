@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const fs = require("fs");
-const prefix = process.env.prefix;
+
 require("dotenv").config();
 const bot_secret_token = process.env.Bot_token;
 
@@ -50,7 +50,7 @@ client.on("message", message => {
 
 client.on("message", msg => {
   if (msg.content === "!p") {
-    msg.reply("pong");
+    msg.reply("Just Testing");
   }
 });
 
