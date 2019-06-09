@@ -10,7 +10,7 @@ bot.on("message", function(message) {
   console.log(message.content);
 
   
-  if(message.content == "discord") {
+  if(message.content == "!discord") {
     
     var embed1 = new Discord.RichEmbed()
     .setColor(0x00ae86)
